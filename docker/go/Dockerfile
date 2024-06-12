@@ -4,7 +4,7 @@ WORKDIR /src
 
 COPY /main .
 
-RUN go mod init aidansparapani/golang-fullcycle && \
+RUN go mod init aidansparapani/fullcycle-exercises/docker/go && \
     go build main.go 
 
 FROM scratch
